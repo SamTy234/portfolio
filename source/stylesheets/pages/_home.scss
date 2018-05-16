@@ -1,13 +1,15 @@
 #home {
-  background-color: #D23333;
+  background-image: linear-gradient(-178deg, rgba(0, 101, 168, 0.6) 18%,
+  rgba(0, 36, 61, 0.6) 35%), url("https://images.unsplash.com/photo-1523978591478-c753949ff840?ixlib=rb-0.3.5…jI0MX0&s=436a11a…&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
   color: white;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
-  p {
-    margin-top: 1.5em;
+  h1{
+    font-weight: bold;
   }
   a {
     color: rgba(0,0,0,0.4);

@@ -1,29 +1,23 @@
 /* Main navbar */
 .navbar-wagon {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: white;
   transition: all 0.3s ease;
   height: 70px;
   padding: 0px 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 100;
 }
 
-/* Logo */
-.navbar-wagon-brand img {
-  height: 50px;
-}
 
-/* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-}
 
 /* Right section */
 .navbar-wagon-right {
+  position: absolute;
+  right: 18px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -32,13 +26,17 @@
 /* Basic navbar item */
 .navbar-wagon-item {
   cursor: pointer;
-  padding: 0 20px;
+  transition: 0.5s;
+  padding: 5px 10px;
 }
 
 /* Navbar link */
 .navbar-wagon-link {
-  color: #616668;
-  font-size: 14px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid;
+  margin-right: 13px;
 }
 .navbar-wagon-link:hover {
   color: #da552f;
