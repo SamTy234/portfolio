@@ -5,6 +5,13 @@
   background-position: center;
   color: white;
   position: relative;
+  transition: 0.7s;
+  margin: 15px;
+  flex: 1 0 auto;  /* grow/shrink/width */
+}
+
+.card:hover{
+  transform: scale(1.2);
 }
 .card-user {
   position: absolute;
@@ -46,6 +53,6 @@
   background: black;
   opacity: 0;
 }
-.card-link:hover {
-  opacity: 0.1;
-}
+// .card-link:hover {
+//   opacity: 0.1;
+// }
