@@ -1,25 +1,61 @@
 ---
-title: Le Wagon - Middleman
+title: GaspPortfolio
 ---
 
-<div id="home">
-  <div class="container">
-    <div class="home-content">
-      <h1> GaspPortfolio</h1>
-      <div class="completed">
-        <h2>Completed Projects:</h2>
-          <ul>
-            <li><%= link_to "CodeWithUs- A web app done with 3 others/Ruby on Rails/Project Management", "http://www.codewithus.xyz/"  %></li>
-            <li><a href="perl.html">Hotel Guest list (PERL)</a></li>
-          </ul>
-      </div>
-
-      <div class="incompleted">
-        <h2>Work in progress:</h2>
-          <ul>
-            <li><%= link_to "Thin Life- A 2D top down puzzle game developed on Unity with C#", "thin.html.erb"  %></li>
-          </ul>
+<div class="home">
+  <div class="banner">
+    <div class="banner-content">
+      <h1>Hi, i'm <b>Sam Gasper.</b> Aspiring <b>Software Developer.</b></h1>
+      <p>Have a look at my work down below</p>
+      <div id="section04" class="demo">
+        <a href="#"><span></span></a>
       </div>
     </div>
   </div>
+
+  <div id="project-list-content">
+    <div class="container">
+      <div class="completed">
+        <h2>Completed</h2>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://i.imgur.com/BKUtlvt.jpg');">
+              <div class="card-category">Ruby on rails</div>
+              <div class="card-description">
+                <h2>Code-with-us</h2>
+                <p>Web app built with Rails</p>
+              </div>
+              <a class="card-link" href="codew.html" ></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://i.imgur.com/P9rjgeO.png');">
+              <div class="card-category">Perl</div>
+              <div class="card-description">
+                <h2>Tyson Heights Hotel</h2>
+                <p>Small project colating what I learnt in perl</p>
+              </div>
+              <a class="card-link" href="perl.html" ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="uncompleted">
+        <h2>In progress</h2>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://i.imgur.com/PGgZTph.jpg');">
+              <div class="card-category">Unity/C#</div>
+              <div class="card-description">
+                <h2>Thin life</h2>
+                <p>Top down puzzle game</p>
+              </div>
+              <a class="card-link" href="thin.html" ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
