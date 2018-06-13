@@ -1,6 +1,6 @@
 .banner{
   background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%),
-  url("https://images.unsplash.com/photo-1523978591478-c753949ff840?ixlib=rb-0.3.5…jI0MX0&s=436a11a…&auto=format&fit=crop&w=1050&q=80");
+  url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f1d38bbdda690e28a81673c06325075&auto=format&fit=crop&w=1189&q=80");
   height: 100vh;
   background-size: cover;
   display: flex;
@@ -10,7 +10,7 @@
     margin: 160px;
     h1{
       font-size: 75px;
-      color: black;
+      color: white;
     }
     p{
       font-weight: lighter;
@@ -20,7 +20,7 @@
   }
 }
 
-.show-banner{
+.project-banner{
   color: white;
   text-align: center;
   height: 50vh;

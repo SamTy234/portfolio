@@ -1,5 +1,14 @@
 .brief-details{
   h2{
-    margin: 60px;
+    margin: 30px;
+  }
+}
+
+
+@media(max-width: 650px){
+  .brief-details{
+    h2{
+      font-size: 18px;
+    }
   }
 }
