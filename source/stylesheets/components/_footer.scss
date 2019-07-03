@@ -1,5 +1,5 @@
 .footer {
-  background: #f1f1f1;
+  background: #f4f4f4;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,6 +17,9 @@
   text-decoration: none;
   font-size: 24px;
   padding: 0px 10px;
+}
+.footer-copyright{
+  color: #686868;
 }
 .footer-links a:hover {
   opacity: 1;
